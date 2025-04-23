@@ -18,7 +18,7 @@ with open('products.csv', encoding='UTF8') as f:
         prod.append(row[0])
         cnt += 1
 
-bot = telebot.TeleBot('7438301360:AAE6fjH2wYcjNEYYz1Th9ICz7e8vQX6H6rE')
+bot = telebot.TeleBot('')
 
 con = sl.connect('fridge.db')
 
